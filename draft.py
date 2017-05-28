@@ -7,7 +7,7 @@ def translator():
     key = 'trnsl.1.1.20170509T173115Z.7389ba585fa6cfbd.673ddf47a800eab1bf15efb75ffdc3db68bcba5f'
     lang = str(input('Enter language (Example: ru-en): '))
     text = parser_html()
-    print(text)
+    # print(text)
 
     r = requests.get(url, data={'key': key, 'text': text, 'lang': lang})
     word_translation = r.json()['text'][0]
