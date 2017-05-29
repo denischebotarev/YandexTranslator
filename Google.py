@@ -1,5 +1,5 @@
 def run_quickstart():
-    # GOOGLE_APPLICATION_CREDENTIALS = '/Users/student/PycharmProjects/YandexTranslator/Translator-9d7bc3f3c075.json'
+    GOOGLE_APPLICATION_CREDENTIALS = 'Translator-9d7bc3f3c075.json'
 
     # [START translate_quickstart]
     # Imports the Google Cloud client library
