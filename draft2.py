@@ -3,7 +3,7 @@ import urllib.request
 from bs4 import BeautifulSoup
 
 
-def get_html(url='http://englishstory.ru/from-the-history-of-a-letter-2.html'):
+def get_html(url='http://docs.python-requests.org/en/master/'):
     reply = urllib.request.urlopen(url)
     return reply.read()
 

@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 
 def user_site():
-    site = str(input('Example: https://docs.python.org/3.0/library/urllib.request.html \nEnter web site to parse:'))
+    site = input('Example: http://docs.python-requests.org/en/master/ \nEnter your site: ')
     return site
 
 
@@ -24,5 +24,6 @@ def parser_html(html=get_html()):
         return('bad luck')
 
 
-print(parser_html())
+if __name__ == '__main':
+    print(parser_html())
 
