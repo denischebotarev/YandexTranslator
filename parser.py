@@ -24,6 +24,6 @@ def parser_html(html=get_html()):
         return('bad luck')
 
 
-if __name__ == '__main':
+if __name__ == '__main__':
     print(parser_html())
 
